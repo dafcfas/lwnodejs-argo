@@ -20,7 +20,7 @@ const NEZHA_KEY = process.env.NEZHA_KEY || '';              // 哪吒v1的NZ_CLI
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'railway.aaaa.x10.mx';          // 固定隧道域名,留空即启用临时隧道
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNGU0Mjc0ZWM2MmRhNTk5OTE4YmQ0NjYxYjc1ZDIzNGQiLCJ0IjoiYzU2Y2Y5ZmUtNzkwYi00OWVhLWFmNTgtMzcxYzU0MzI1YmVkIiwicyI6IlpESTRObUUyTVRVdFlqVTROeTAwWXpZMUxUZzFZVEV0TURBMk56Tm1NR014T0RCaCJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8001;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
+const CFIP = process.env.CFIP || 'www.visa.cn';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 443;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'koorailway';                        // 节点名称
 
